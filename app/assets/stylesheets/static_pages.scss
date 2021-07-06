@@ -1,0 +1,16 @@
+.slider{
+  height: 95vh!important;
+}
+.slides{
+  height: 95vh!important;
+}
+.indicators{
+  z-index: 1000;
+
+}
+.indicator-item{
+  background-color: #f75694db!important;
+}
+.indicator-item.active{
+  background-color: #000000 !important;
+}

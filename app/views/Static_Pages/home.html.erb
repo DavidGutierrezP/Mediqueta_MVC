@@ -1,0 +1,47 @@
+<%= stylesheet_link_tag 'static_pages.css' %>
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <%= image_tag("ojos.svg", alt: "Pills", width: "100vh")
+      %>
+      <div class="caption center-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <%= image_tag("check.svg", alt: "Cuerpo", width: "100vh")
+      %>
+      <div class="caption left-align">
+        <h3>Left Aligned Caption</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <%= image_tag("nurse.svg", alt: "Medico", width: "100vh")
+      %>
+      <div class="caption right-align">
+        <h3>Right Aligned Caption</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <%= image_tag("farmacia.svg", alt: "Farmacia", width: "100vh")
+      %>
+      <div class="caption center-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+  </ul>
+</div>
+
+  <script type="text/javascript" charset="utf-8">
+
+
+      $(document).ready(function(){
+          $('.slider').slider();
+
+      });
+
+  </script>
